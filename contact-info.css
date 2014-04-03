@@ -1,0 +1,28 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	background: #04859D;
+	color: #1437AD;
+	text-align: center;
+	font-family: sans-serif;
+}
+h1 {
+	font-size: 2em;
+	background: #FF7C00;
+}
+.info {
+	text-align: left;
+	margin-left: 25%;
+}
+textarea {
+	height: 100px;
+	width: 300px;
+}
+ul.links { 
+    list-style-type: none;
+	list-style-position: relative;
+	margin-left: -25px;
+}
