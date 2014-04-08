@@ -8,6 +8,14 @@
 <body>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="contact-info.js"></script>
+    <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 	<div id="header"<h1>Contact Information</h1></div>
 	<div class="info">
 	<p><b>Name:</b> Nellie McCool<br/>
@@ -21,14 +29,23 @@
 		<p>Type your response:</p>
 			<textarea></textarea>
 		<ul class="links">
-			<li class="twitter"><button id="twitter"></button>
-			<img src="twitter-icon.png" class="img-polaroid">
+			<li class="twitter">
+				<a href="https://twitter.com/prairiemuffins" class="twitter-follow-button" data-show-count="false">Follow @prairiemuffins</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</li>
-			<li class="google"><button id="google"></button>
+			<li class="google">
+				<a href="//plus.google.com/u/0/116670395758010675072?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;display:inline-block;color:#333;text-align:center; font:13px/16px arial,sans-serif;white-space:nowrap;">
+   				<span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px; margin-top:0px;">Nellie McCool</span><span style="display:inline-block;vertical-align:top;margin-right:13px; margin-top:0px;">on</span>
+				<img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/>
+				</a>
 			</li>
-			<li class="linkedin"><button id="linkedin"></button>
-			</li>
-			<li class="facebook"><button id="facebook"></button>
+			<li class="linkedin">
+				<a href="http://www.linkedin.com/pub/nellie-mccool/4a/631/5b2">
+      	        <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Nellie McCool's profile on LinkedIn">
+      	    	</a>
+      	    </li>
+			<li class="facebook">
+				<div class="fb-follow" data-href="https://www.facebook.com/dafphodil" data-colorscheme="light" data-layout="button_count" data-show-faces="true"></div>
 			</li>
 		</ul>
 	</form>
