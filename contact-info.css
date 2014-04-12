@@ -9,37 +9,69 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 }
-#header {
+h1 {
 	height: 38px;
 	background-color: #009999;
 	color: #006363;
-	font-size: 1em;
+	font-size: 2em;
 	border-radius: 5px;
 }
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
 .info {
-	float: left;
-	margin-left: 200px;
-	margin-right: 50px;
-	margin-bottom: 33px;
-	width: 250px;
 	text-align: left;
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 .quote {
 	float: right;
-	margin-right: 200px;
-	margin-left: 50px;
-	margin-bottom: 15px;
-	width: 250px;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 h3 {
-
+	height: 19px;
+	background-color: #009999;
+	color: #006363;
+	font-size: 1em;
+}
+img {
+	border: solid;
+}
+.contact {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.response {
+	float: right;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+input {
+	width: 75%;
+	min-width: 125px;
 }
 textarea {
 	height: 100px;
-	width: 300px;
+	width: 75%;
+	min-width: 125px;
 }
-ul.links { 
-    list-style-type: none;
+li { 
+	list-style-type: none;
 	list-style-position: relative;
 	margin-left: -25px;
 }
