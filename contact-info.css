@@ -5,14 +5,13 @@ html {
 }
 body {
 	background: #5CCCCC;
-	color: black;
+	color: white;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 h1 {
 	height: 38px;
 	background-color: #009999;
-	color: #006363;
 	font-size: 2em;
 	border-radius: 5px;
 }
@@ -39,15 +38,17 @@ h1 {
 	width: 40%;
 	margin-right: 5%;
 	margin-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 h3 {
 	height: 19px;
 	background-color: #009999;
-	color: #006363;
 	font-size: 1em;
 }
 img {
-	border: solid;
+	border: 1px solid;
+	border-color: white;
 }
 .contact {
 	float: left;
@@ -64,14 +65,17 @@ img {
 input {
 	width: 75%;
 	min-width: 125px;
+	color:black;
+}
+#send {
+	width: 50px;
 }
 textarea {
 	height: 100px;
 	width: 75%;
 	min-width: 125px;
 }
-li { 
-	list-style-type: none;
-	list-style-position: relative;
-	margin-left: -25px;
+.links {
+	font-size: .7em;
+	font-family: sans-serif;
 }
