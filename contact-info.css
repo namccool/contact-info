@@ -9,9 +9,11 @@ body {
 	text-align: center;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+h1, h3 {
+	background-color: #009999;
+}
 h1 {
 	height: 38px;
-	background-color: #009999;
 	font-size: 2em;
 	border-radius: 5px;
 }
@@ -26,45 +28,36 @@ h1 {
 .group {
   zoom: 1;
 }
+.info, .quote, .contact, .response {
+	width: 40%;
+}
+.info, .contact {
+	float: left;
+	margin: 0 5% 0 5%;
+}
 .info {
 	text-align: left;
-	float: left;
-	width: 40%;
-	margin-left: 5%;
-	margin-right: 5%;
+}
+.quote, .response {
+	float: right;
+	margin: 0 5% 0 5%;
 }
 .quote {
-	float: right;
-	width: 40%;
-	margin-right: 5%;
-	margin-left: 5%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding: 5% 0 5% 0;
 }
 h3 {
 	height: 19px;
-	background-color: #009999;
 	font-size: 1em;
 }
 img {
 	border: 1px solid;
 	border-color: white;
 }
-.contact {
-	float: left;
-	width: 40%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-.response {
-	float: right;
-	width: 40%;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-input {
+input, textarea {
 	width: 75%;
 	min-width: 125px;
+}
+input {
 	color:black;
 }
 #send {
@@ -72,10 +65,7 @@ input {
 }
 textarea {
 	height: 100px;
-	width: 75%;
-	min-width: 125px;
 }
 .links {
 	font-size: .7em;
-	font-family: sans-serif;
 }
