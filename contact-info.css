@@ -7,13 +7,13 @@ body {
 	background: #5CCCCC;
 	color: white;
 	text-align: center;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font: .7em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 h1, h3 {
 	background-color: #009999;
 }
 h1 {
-	height: 38px;
+	height: 28px;
 	font-size: 2em;
 	border-radius: 5px;
 }
@@ -46,7 +46,7 @@ h1 {
 	padding: 5% 0 5% 0;
 }
 h3 {
-	height: 19px;
+	height: 15px;
 	font-size: 1em;
 }
 img {
@@ -66,6 +66,14 @@ input {
 textarea {
 	height: 100px;
 }
-.links {
-	font-size: .7em;
+li {
+	display: inline;
+	font-size: 50px;
+}
+ul{
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+#twitter {
 }
