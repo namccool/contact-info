@@ -9,14 +9,6 @@
 <body>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="contact-info.js"></script>
-	<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 <h1>Contact Information</h1>
 <section class="group"><div class="quote">
 	<aside>"My desire for knowledge is intermittent; but my desire to commune with the spirit of the universe, to be intoxicated with the fumes, call it, of that divine nectar, to bear my head through atmospheres and over heights unknown to my feet, is perennial and constant."
@@ -31,8 +23,8 @@
 <section class="group"><form>
 	<div class="contact">
 		<h3>Send A Message</h3>
-		<input type="text" name="name" value="Your Name"><br/>
-		<input type="text" name="email" value="Your E-mail Address"><br/>
+		<input type="text" name="name" placeholder="Your Name"><br/>
+		<input type="text" name="email" placeholder="Your E-mail Address"><br/>
 		<input type="submit" name="submit" value="Send" id="send">
 	</div>
 	<div class="response">
