@@ -1,0 +1,77 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	background: #5CCCCC;
+	color: white;
+	text-align: center;
+	font: .7em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+h1, h3 {
+	background-color: #009999;
+}
+h1 {
+	height: 28px;
+	font-size: 2em;
+	border-radius: 5px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+.info, .quote, .contact, .response {
+	width: 40%;
+}
+.info, .contact {
+	float: left;
+	margin: 0 5% 0 5%;
+}
+.info {
+	text-align: left;
+}
+.quote, .response {
+	float: right;
+	margin: 0 5% 0 5%;
+}
+.quote {
+	padding: 5% 0 5% 0;
+}
+h3 {
+	height: 15px;
+	font-size: 1em;
+}
+img {
+	border: 1px solid;
+	border-color: white;
+}
+input, textarea {
+	width: 75%;
+	min-width: 125px;
+}
+input {
+	color:black;
+}
+#send {
+	width: 50px;
+}
+textarea {
+	height: 100px;
+}
+li {
+	display: inline;
+	font-size: 50px;
+}
+ul{
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
